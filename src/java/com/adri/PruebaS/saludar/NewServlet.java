@@ -40,7 +40,7 @@ public class NewServlet extends HttpServlet {
             out.println("<title>Hola Mundo Servlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h2>Hola que tal? Soy Adri, cuál es tu nombre?</h2>"); // + request.getContextPath() + 
+            out.println("<h2>Hola que tal? Soy Adri, cuál es tu nombre?</h2>"); // Añadimos el código HTML del formulario en concreto
             out.println("<form action=\"RespuestaServlet\" method=\"post\">"
                     //+ "<input type=\"text\" name=\"nombre\" size=\"25\"><p></p>"
                     + "<input type=\"text\" name=\"name\" size=\"25\">"
