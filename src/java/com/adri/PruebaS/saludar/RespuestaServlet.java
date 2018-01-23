@@ -40,7 +40,7 @@ public class RespuestaServlet extends HttpServlet {
             out.println("<title>Servlet RespuestaServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            String nombre = request.getParameter("name");
+            String nombre = request.getParameter("name"); //Obtenemos el parámetro que queramos de los que vengan en el formulario.
             
             if((nombre != null) && (nombre.length() > 0)){
                 out.println("<h2>Hola, qué tal " + nombre + "?</h2>");
